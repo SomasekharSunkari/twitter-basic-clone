@@ -1,0 +1,93 @@
+body {
+  --twitter-color: rgb(14, 151, 219);
+  --text-color: white;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.post-icon-lap {
+  display: none !important;
+}
+.maincomponent {
+  display: flex;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.maincomponent .sidebar__compo {
+  flex: 0.2;
+}
+.maincomponent .feed__compo {
+  flex: 0.5;
+}
+.maincomponent .wid__compo {
+  flex: 0.3;
+}
+@media screen and (max-width: 1263px) {
+  .sidebar__twittebutton {
+    display: none !important;
+  }
+  .post-sm-btn {
+    display: block;
+  }
+  .maincomponent .sidebar__compo {
+    flex: 0.07;
+  }
+  .maincomponent .feed__compo {
+    flex: 0.6;
+  }
+  .maincomponent .wid__compo {
+    flex: 0.33;
+  }
+}
+@media screen and (max-width: 989px) {
+  .maincomponent .sidebar__compo {
+    flex: 0.1;
+  }
+  .maincomponent .feed__compo {
+    flex: 0.7;
+  }
+  .maincomponent .wid__compo {
+    display: none;
+  }
+}
+@media screen and (max-width: 889px) {
+  .maincomponent .sidebar__compo {
+    flex: 0.1;
+  }
+  .maincomponent .feed__compo {
+    flex: 0.9;
+  }
+  .maincomponent .wid__compo {
+    display: none;
+  }
+}
+@media screen and (max-width: 449px) {
+  .maincomponent .sidebar__compo {
+    display: none;
+  }
+  .maincomponent .feed__compo {
+    flex: 1;
+  }
+  .maincomponent .wid__compo {
+    display: none;
+  }
+
+  /* .maincomponent .sidebar__compo {
+    flex: 0.1;
+  }
+  .maincomponent .feed__compo {
+    flex: 0.9;
+  }
+  .maincomponent .wid__compo {
+    display: none;
+  } */
+}
+/* @media screen and (min-width: 1200px) and (max-width: 1300px) {
+  .maincomponent .feed__compo {
+    flex: 0.6;
+  }
+  .maincomponent .wid__compo {
+    flex: 0.2;
+  }
+} */
